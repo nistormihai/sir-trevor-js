@@ -4,14 +4,14 @@
  * Released under the MIT license
  * www.opensource.org/licenses/MIT
  *
- * 2014-12-08
+ * 2014-12-16
  */
 
 
 !function(e){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var f;"undefined"!=typeof window?f=window:"undefined"!=typeof global?f=global:"undefined"!=typeof self&&(f=self),f.SirTrevor=e()}}(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports = require('./src/');
 
-},{"./src/":174}],2:[function(require,module,exports){
+},{"./src/":173}],2:[function(require,module,exports){
 (function (process){
  /*!
   * https://github.com/paulmillr/es6-shim
@@ -2926,9 +2926,9 @@ module.exports = baseCreate;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"lodash._isnative":15,"lodash.isobject":30,"lodash.noop":16}],15:[function(require,module,exports){
 module.exports=require(9)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],16:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],16:[function(require,module,exports){
 module.exports=require(10)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":10}],17:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":10}],17:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3010,11 +3010,11 @@ module.exports = baseCreateWrapper;
 
 },{"lodash._basecreate":18,"lodash._setbinddata":8,"lodash._slice":21,"lodash.isobject":30}],18:[function(require,module,exports){
 module.exports=require(14)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash._basecreate/index.js":14,"lodash._isnative":19,"lodash.isobject":30,"lodash.noop":20}],19:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash.bind/node_modules/lodash._createwrapper/node_modules/lodash._basebind/node_modules/lodash._basecreate/index.js":14,"lodash._isnative":19,"lodash.isobject":30,"lodash.noop":20}],19:[function(require,module,exports){
 module.exports=require(9)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],20:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],20:[function(require,module,exports){
 module.exports=require(10)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":10}],21:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash.noop/index.js":10}],21:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3130,7 +3130,7 @@ module.exports = support;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"lodash._isnative":24}],24:[function(require,module,exports){
 module.exports=require(9)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],25:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],25:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3192,7 +3192,7 @@ module.exports = keys;
 
 },{"lodash._isnative":27,"lodash._shimkeys":28,"lodash.isobject":30}],27:[function(require,module,exports){
 module.exports=require(9)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],28:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],28:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3304,7 +3304,7 @@ module.exports = isObject;
 
 },{"lodash._objecttypes":31}],31:[function(require,module,exports){
 module.exports=require(25)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],32:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],32:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3745,7 +3745,7 @@ module.exports = defaults;
 
 },{"lodash._objecttypes":39,"lodash.keys":45}],39:[function(require,module,exports){
 module.exports=require(25)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],40:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],40:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -3849,15 +3849,15 @@ module.exports = reUnescapedHtml;
 
 },{"lodash._htmlescapes":44,"lodash.keys":45}],44:[function(require,module,exports){
 module.exports=require(42)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/node_modules/lodash._htmlescapes/index.js":42}],45:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.template/node_modules/lodash.escape/node_modules/lodash._escapehtmlchar/node_modules/lodash._htmlescapes/index.js":42}],45:[function(require,module,exports){
 module.exports=require(26)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash.keys/index.js":26,"lodash._isnative":46,"lodash._shimkeys":47,"lodash.isobject":30}],46:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash.keys/index.js":26,"lodash._isnative":46,"lodash._shimkeys":47,"lodash.isobject":30}],46:[function(require,module,exports){
 module.exports=require(9)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],47:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._basecreatecallback/node_modules/lodash._setbinddata/node_modules/lodash._isnative/index.js":9}],47:[function(require,module,exports){
 module.exports=require(28)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash.keys/node_modules/lodash._shimkeys/index.js":28,"lodash._objecttypes":48}],48:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash.keys/node_modules/lodash._shimkeys/index.js":28,"lodash._objecttypes":48}],48:[function(require,module,exports){
 module.exports=require(25)
-},{"/Users/andrewwalker/sites/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],49:[function(require,module,exports){
+},{"/Users/dan/Development/sir-trevor-js/node_modules/lodash.isempty/node_modules/lodash.forown/node_modules/lodash._objecttypes/index.js":25}],49:[function(require,module,exports){
 /**
  * Lo-Dash 2.4.1 (Custom Build) <http://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -6099,6 +6099,52 @@ module.exports = function () {
     };
 };
 },{}],133:[function(require,module,exports){
+'use strict';
+module.exports = function () {
+    return function (scribe) {
+        var linkPromptCommand = new scribe.api.Command('createLink');
+        linkPromptCommand.nodeName = 'A';
+        linkPromptCommand.execute = function () {
+            var selection = new scribe.api.Selection();
+            var range = selection.range;
+            var anchorNode = selection.getContaining(function (node) {
+                    return node.nodeName === this.nodeName;
+                }.bind(this));
+            var initialLink = anchorNode ? anchorNode.href : 'http://';
+            var link = window.prompt('Enter a link.', initialLink);
+            if (anchorNode) {
+                range.selectNode(anchorNode);
+                selection.selection.removeAllRanges();
+                selection.selection.addRange(range);
+            }
+            if (link) {
+                var urlProtocolRegExp = /^https?\:\/\//;
+                if (!urlProtocolRegExp.test(link)) {
+                    if (!/^mailto\:/.test(link) && /@/.test(link)) {
+                        var shouldPrefixEmail = window.confirm('The URL you entered appears to be an email address. ' + 'Do you want to add the required \u201cmailto:\u201d prefix?');
+                        if (shouldPrefixEmail) {
+                            link = 'mailto:' + link;
+                        }
+                    } else {
+                        var shouldPrefixLink = window.confirm('The URL you entered appears to be a link. ' + 'Do you want to add the required \u201chttp://\u201d prefix?');
+                        if (shouldPrefixLink) {
+                            link = 'http://' + link;
+                        }
+                    }
+                }
+                scribe.api.SimpleCommand.prototype.execute.call(this, link);
+            }
+        };
+        linkPromptCommand.queryState = function () {
+            var selection = new scribe.api.Selection();
+            return !!selection.getContaining(function (node) {
+                return node.nodeName === this.nodeName;
+            }.bind(this));
+        };
+        scribe.commands.linkPrompt = linkPromptCommand;
+    };
+};
+},{}],134:[function(require,module,exports){
 /**
  * Copyright (c) 2011-2014 Felix Gnass
  * Licensed under the MIT license
@@ -6449,7 +6495,7 @@ module.exports = function () {
 
 }));
 
-},{}],134:[function(require,module,exports){
+},{}],135:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -6482,7 +6528,7 @@ Object.assign(BlockControl.prototype, require('./function-bind'), require('./ren
 
 module.exports = BlockControl;
 
-},{"./blocks":152,"./events":162,"./function-bind":171,"./lodash":176,"./renderable":178}],135:[function(require,module,exports){
+},{"./blocks":153,"./events":163,"./function-bind":170,"./lodash":175,"./renderable":177}],136:[function(require,module,exports){
 "use strict";
 
 /*
@@ -6575,7 +6621,7 @@ Object.assign(BlockControls.prototype, require('./function-bind'), require('./me
 
 module.exports = BlockControls;
 
-},{"./block-control":134,"./blocks":152,"./event-bus":161,"./events":162,"./function-bind":171,"./lodash":176,"./mediated-events":177,"./renderable":178}],136:[function(require,module,exports){
+},{"./block-control":135,"./blocks":153,"./event-bus":162,"./events":163,"./function-bind":170,"./lodash":175,"./mediated-events":176,"./renderable":177}],137:[function(require,module,exports){
 "use strict";
 
 var BlockDeletion = function() {
@@ -6597,7 +6643,7 @@ Object.assign(BlockDeletion.prototype, require('./function-bind'), require('./re
 
 module.exports = BlockDeletion;
 
-},{"./function-bind":171,"./renderable":178}],137:[function(require,module,exports){
+},{"./function-bind":170,"./renderable":177}],138:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -6607,7 +6653,8 @@ var config = require('./config');
 var EventBus = require('./event-bus');
 var Blocks = require('./blocks');
 
-var BLOCK_OPTION_KEYS = ['convertToMarkdown', 'convertFromMarkdown'];
+var BLOCK_OPTION_KEYS = ['convertToMarkdown', 'convertFromMarkdown',
+  'formatBar'];
 
 var BlockManager = function(options, editorInstance, mediator) {
   this.options = options;
@@ -6806,7 +6853,7 @@ Object.assign(BlockManager.prototype, require('./function-bind'), require('./med
 module.exports = BlockManager;
 
 
-},{"./blocks":152,"./config":158,"./event-bus":161,"./events":162,"./function-bind":171,"./lodash":176,"./mediated-events":177,"./utils":182}],138:[function(require,module,exports){
+},{"./blocks":153,"./config":159,"./event-bus":162,"./events":163,"./function-bind":170,"./lodash":175,"./mediated-events":176,"./utils":181}],139:[function(require,module,exports){
 "use strict";
 
 var template = [
@@ -6886,7 +6933,7 @@ Object.assign(BlockPositioner.prototype, require('./function-bind'), require('./
 
 module.exports = BlockPositioner;
 
-},{"./function-bind":171,"./renderable":178}],139:[function(require,module,exports){
+},{"./function-bind":170,"./renderable":177}],140:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -6977,7 +7024,7 @@ Object.assign(BlockReorder.prototype, require('./function-bind'), require('./ren
 
 module.exports = BlockReorder;
 
-},{"./event-bus":161,"./function-bind":171,"./lodash":176,"./renderable":178}],140:[function(require,module,exports){
+},{"./event-bus":162,"./function-bind":170,"./lodash":175,"./renderable":177}],141:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -7063,7 +7110,7 @@ module.exports = {
 
 };
 
-},{"./event-bus":161,"./lodash":176,"./utils":182}],141:[function(require,module,exports){
+},{"./event-bus":162,"./lodash":175,"./utils":181}],142:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -7141,13 +7188,14 @@ module.exports = {
 
 };
 
-},{"./lodash":176,"./utils":182}],142:[function(require,module,exports){
+},{"./lodash":175,"./utils":181}],143:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
 
 var Scribe = require('scribe-editor');
 var scribePluginFormatterPlainTextConvertNewLinesToHTML = require('scribe-plugin-formatter-plain-text-convert-new-lines-to-html');
+var scribePluginLinkPromptCommand = require('scribe-plugin-link-prompt-command');
 
 var config = require('./config');
 var utils = require('./utils');
@@ -7158,7 +7206,6 @@ var SimpleBlock = require('./simple-block');
 var BlockReorder = require('./block-reorder');
 var BlockDeletion = require('./block-deletion');
 var BlockPositioner = require('./block-positioner');
-var Formatters = require('./formatters');
 var EventBus = require('./event-bus');
 
 var Spinner = require('spin.js');
@@ -7179,34 +7226,6 @@ var delete_template = [
   "<a class='st-block-ui-btn st-block-ui-btn--deny-delete st-icon' data-icon='close'></a>",
   "</div>"
 ].join("\n");
-
-var drop_options = {
-  html: ['<div class="st-block__dropzone">',
-    '<span class="st-icon"><%= _.result(block, "icon_name") %></span>',
-    '<p><%= i18n.t("general:drop", { block: "<span>" + _.result(block, "title") + "</span>" }) %>',
-    '</p></div>'].join('\n'),
-    re_render_on_reorder: false
-};
-
-var paste_options = {
-  html: ['<input type="text" placeholder="<%= i18n.t("general:paste") %>"',
-    ' class="st-block__paste-input st-paste-block">'].join('')
-};
-
-var upload_options = {
-  html: [
-    '<div class="st-block__upload-container">',
-    '<input type="file" type="st-file-upload">',
-    '<button class="st-upload-btn"><%= i18n.t("general:upload") %></button>',
-    '</div>'
-  ].join('\n')
-};
-
-config.defaults.Block = {
-  drop_options: drop_options,
-  paste_options: paste_options,
-  upload_options: upload_options
-};
 
 Object.assign(Block.prototype, SimpleBlock.fn, require('./block-validations'), {
 
@@ -7424,6 +7443,24 @@ Object.assign(Block.prototype, SimpleBlock.fn, require('./block-validations'), {
     this.ready();
   },
 
+  execTextBlockCommand: function(cmdName) {
+    if (_.isUndefined(this._scribe)) {
+      throw "No Scribe instance found to send a command to";
+    }
+    var cmd = this._scribe.getCommand(cmdName);
+    this._scribe.el.focus();
+    cmd.execute();
+  },
+
+  queryTextBlockCommandState: function(cmdName) {
+    if (_.isUndefined(this._scribe)) {
+      throw "No Scribe instance found to query command";
+    }
+    var cmd = this._scribe.getCommand(cmdName),
+        sel = new this._scribe.api.Selection();
+    return sel.range && cmd.queryState();
+  },
+
   _handleContentPaste: function(ev) {
     setTimeout(this.onContentPasted.bind(this, ev, $(ev.currentTarget)), 0);
   },
@@ -7454,15 +7491,36 @@ Object.assign(Block.prototype, SimpleBlock.fn, require('./block-validations'), {
 
   _initFormatting: function() {
     // Enable formatting keyboard input
-    var formatter;
-    for (var name in Formatters) {
-      if (Formatters.hasOwnProperty(name)) {
-        formatter = Formatters[name];
-        if (!_.isUndefined(formatter.keyCode)) {
-          formatter._bindToBlock(this.$el);
-        }
-      }
+    var block = this;
+
+    if (!this.options.formatBar) {
+      return;
     }
+
+    this.options.formatBar.commands.forEach(function(cmd) {
+      if (_.isUndefined(cmd.keyCode)) {
+        return;
+      }
+
+      var ctrlDown = false;
+
+      block.$el
+        .on('keyup','.st-text-block', function(ev) {
+          if(ev.which === 17 || ev.which === 224 || ev.which === 91) {
+            ctrlDown = false;
+          }
+        })
+        .on('keydown','.st-text-block', {formatter: cmd}, function(ev) {
+          if(ev.which === 17 || ev.which === 224 || ev.which === 91) {
+            ctrlDown = true;
+          }
+
+          if(ev.which === ev.data.formatter.keyCode && ctrlDown) {
+            ev.preventDefault();
+            block.execTextBlockCommand(ev.data.formatter.cmd);
+          }
+        });
+    });
   },
 
   _initTextBlocks: function() {
@@ -7471,11 +7529,13 @@ Object.assign(Block.prototype, SimpleBlock.fn, require('./block-validations'), {
         .bind('mouseup', this.getSelectionForFormatter)
         .bind('DOMNodeInserted', this.clearInsertedStyles);
 
-    if (_.isUndefined(this._scribe)) {
-      this._scribe = new Scribe(this.getTextBlock().get(0), {
+    var textBlock = this.getTextBlock().get(0);
+    if (!_.isUndefined(textBlock) && _.isUndefined(this._scribe)) {
+      this._scribe = new Scribe(textBlock, {
         debug: config.scribeDebug,
       });
       this._scribe.use(scribePluginFormatterPlainTextConvertNewLinesToHTML());
+      this._scribe.use(scribePluginLinkPromptCommand());
 
       if (_.isFunction(this.options.configureScribe)) {
         this.options.configureScribe.call(this, this._scribe);
@@ -7530,7 +7590,7 @@ Block.extend = require('./helpers/extend'); // Allow our Block to be extended.
 
 module.exports = Block;
 
-},{"./block-deletion":136,"./block-positioner":138,"./block-reorder":139,"./block-validations":141,"./block_mixins":147,"./config":158,"./event-bus":161,"./formatters":170,"./helpers/extend":173,"./lodash":176,"./simple-block":179,"./to-markdown":181,"./utils":182,"scribe-editor":129,"scribe-plugin-formatter-plain-text-convert-new-lines-to-html":132,"spin.js":133}],143:[function(require,module,exports){
+},{"./block-deletion":137,"./block-positioner":139,"./block-reorder":140,"./block-validations":142,"./block_mixins":148,"./config":159,"./event-bus":162,"./helpers/extend":172,"./lodash":175,"./simple-block":178,"./to-markdown":180,"./utils":181,"scribe-editor":129,"scribe-plugin-formatter-plain-text-convert-new-lines-to-html":132,"scribe-plugin-link-prompt-command":133,"spin.js":134}],144:[function(require,module,exports){
 "use strict";
 
 var utils = require('../utils');
@@ -7572,7 +7632,7 @@ module.exports = {
 
 };
 
-},{"../utils":182}],144:[function(require,module,exports){
+},{"../utils":181}],145:[function(require,module,exports){
 "use strict";
 
 var utils = require('../utils');
@@ -7607,7 +7667,7 @@ module.exports = {
   }
 };
 
-},{"../utils":182}],145:[function(require,module,exports){
+},{"../utils":181}],146:[function(require,module,exports){
 "use strict";
 
 /* Adds drop functionaltiy to this block */
@@ -7669,7 +7729,7 @@ module.exports = {
 
 };
 
-},{"../config":158,"../event-bus":161,"../lodash":176,"../utils":182}],146:[function(require,module,exports){
+},{"../config":159,"../event-bus":162,"../lodash":175,"../utils":181}],147:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -7704,7 +7764,7 @@ module.exports = {
 
 };
 
-},{"../lodash":176,"./ajaxable":143}],147:[function(require,module,exports){
+},{"../lodash":175,"./ajaxable":144}],148:[function(require,module,exports){
 "use strict";
 
 module.exports = {
@@ -7716,7 +7776,7 @@ module.exports = {
   Uploadable: require('./uploadable.js'),
 };
 
-},{"./ajaxable.js":143,"./controllable.js":144,"./droppable.js":145,"./fetchable.js":146,"./pastable.js":148,"./uploadable.js":149}],148:[function(require,module,exports){
+},{"./ajaxable.js":144,"./controllable.js":145,"./droppable.js":146,"./fetchable.js":147,"./pastable.js":149,"./uploadable.js":150}],149:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -7731,7 +7791,7 @@ module.exports = {
     utils.log("Adding pastable to block " + this.blockID);
 
     this.paste_options = Object.assign(
-      {}, config.defaults.block.pasteOptions, this.paste_options);
+      {}, config.defaults.Block.paste_options, this.paste_options);
     this.$inputs.append(_.template(this.paste_options.html, this));
 
     this.$('.st-paste-block')
@@ -7742,7 +7802,7 @@ module.exports = {
 
 };
 
-},{"../config":158,"../lodash":176,"../utils":182}],149:[function(require,module,exports){
+},{"../config":159,"../lodash":175,"../utils":181}],150:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -7771,7 +7831,7 @@ module.exports = {
 
 };
 
-},{"../config":158,"../extensions/file-uploader":164,"../lodash":176,"../utils":182,"./ajaxable":143}],150:[function(require,module,exports){
+},{"../config":159,"../extensions/file-uploader":165,"../lodash":175,"../utils":181,"./ajaxable":144}],151:[function(require,module,exports){
 "use strict";
 
 /*
@@ -7796,7 +7856,7 @@ module.exports = Block.extend({
   }
 });
 
-},{"../block":142,"../to-html":180}],151:[function(require,module,exports){
+},{"../block":143,"../to-html":179}],152:[function(require,module,exports){
 "use strict";
 
 var Block = require('../block');
@@ -7850,7 +7910,7 @@ module.exports = Block.extend({
   }
 });
 
-},{"../block":142}],152:[function(require,module,exports){
+},{"../block":143}],153:[function(require,module,exports){
 "use strict";
 
 module.exports = {
@@ -7863,7 +7923,7 @@ module.exports = {
   Video: require('./video'),
 };
 
-},{"./heading":150,"./image":151,"./list":153,"./quote":154,"./text":155,"./tweet":156,"./video":157}],153:[function(require,module,exports){
+},{"./heading":151,"./image":152,"./list":154,"./quote":155,"./text":156,"./tweet":157,"./video":158}],154:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -7926,7 +7986,7 @@ module.exports = Block.extend({
 
 });
 
-},{"../block":142,"../lodash":176,"../to-html":180}],154:[function(require,module,exports){
+},{"../block":143,"../lodash":175,"../to-html":179}],155:[function(require,module,exports){
 "use strict";
 
 /*
@@ -7968,7 +8028,7 @@ module.exports = Block.extend({
 
 });
 
-},{"../block":142,"../lodash":176,"../to-html":180}],155:[function(require,module,exports){
+},{"../block":143,"../lodash":175,"../to-html":179}],156:[function(require,module,exports){
 "use strict";
 
 /*
@@ -7993,7 +8053,7 @@ module.exports = Block.extend({
   },
 });
 
-},{"../block":142,"../to-html":180}],156:[function(require,module,exports){
+},{"../block":143,"../to-html":179}],157:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -8102,7 +8162,7 @@ module.exports = Block.extend({
   }
 });
 
-},{"../block":142,"../lodash":176,"../utils":182}],157:[function(require,module,exports){
+},{"../block":143,"../lodash":175,"../utils":181}],158:[function(require,module,exports){
 "use strict";
 
 var _ = require('../lodash');
@@ -8181,8 +8241,30 @@ module.exports = Block.extend({
 });
 
 
-},{"../block":142,"../lodash":176,"../utils":182}],158:[function(require,module,exports){
+},{"../block":143,"../lodash":175,"../utils":181}],159:[function(require,module,exports){
 "use strict";
+
+var drop_options = {
+  html: ['<div class="st-block__dropzone">',
+    '<span class="st-icon"><%= _.result(block, "icon_name") %></span>',
+    '<p><%= i18n.t("general:drop", { block: "<span>" + _.result(block, "title") + "</span>" }) %>',
+    '</p></div>'].join('\n'),
+    re_render_on_reorder: false
+};
+
+var paste_options = {
+  html: ['<input type="text" placeholder="<%= i18n.t("general:paste") %>"',
+    ' class="st-block__paste-input st-paste-block">'].join('')
+};
+
+var upload_options = {
+  html: [
+    '<div class="st-block__upload-container">',
+    '<input type="file" type="st-file-upload">',
+    '<button class="st-upload-btn"><%= i18n.t("general:upload") %></button>',
+    '</div>'
+  ].join('\n')
+};
 
 module.exports = {
   debug: false,
@@ -8208,6 +8290,11 @@ module.exports = {
       left: '50%',
       top: '50%'
     },
+    Block: {
+      drop_options: drop_options,
+      paste_options: paste_options,
+      upload_options: upload_options,
+    },
     blockLimit: 0,
     blockTypeLimits: {},
     required: [],
@@ -8216,10 +8303,42 @@ module.exports = {
     errorsContainer: undefined,
     convertToMarkdown: false,
     convertFromMarkdown: true,
+    formatBar: {
+      commands: [
+        {
+          name: "Bold",
+          title: "bold",
+          cmd: "bold",
+          keyCode: 66,
+          text : "B"
+        },
+        {
+          name: "Italic",
+          title: "italic",
+          cmd: "italic",
+          keyCode: 73,
+          text : "i"
+        },
+        {
+          name: "Link",
+          title: "link",
+          iconName: "link",
+          cmd: "linkPrompt",
+          text : "link",
+        },
+        {
+          name: "Unlink",
+          title: "unlink",
+          iconName: "link",
+          cmd: "unlink",
+          text : "link",
+        },
+      ],
+    },
   }
 };
 
-},{}],159:[function(require,module,exports){
+},{}],160:[function(require,module,exports){
 "use strict";
 
 /*
@@ -8518,7 +8637,7 @@ module.exports = Editor;
 
 
 
-},{"./block-controls":135,"./block-manager":137,"./config":158,"./error-handler":160,"./event-bus":161,"./events":162,"./extensions/editor-store":163,"./floating-block-controls":166,"./form-events":167,"./format-bar":168,"./function-bind":171,"./lodash":176,"./utils":182}],160:[function(require,module,exports){
+},{"./block-controls":136,"./block-manager":138,"./config":159,"./error-handler":161,"./event-bus":162,"./events":163,"./extensions/editor-store":164,"./floating-block-controls":167,"./form-events":168,"./format-bar":169,"./function-bind":170,"./lodash":175,"./utils":181}],161:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -8586,17 +8705,17 @@ Object.assign(ErrorHandler.prototype, require('./function-bind'), require('./med
 module.exports = ErrorHandler;
 
 
-},{"./function-bind":171,"./lodash":176,"./mediated-events":177,"./renderable":178}],161:[function(require,module,exports){
+},{"./function-bind":170,"./lodash":175,"./mediated-events":176,"./renderable":177}],162:[function(require,module,exports){
 "use strict";
 
 module.exports = Object.assign({}, require('./events'));
 
-},{"./events":162}],162:[function(require,module,exports){
+},{"./events":163}],163:[function(require,module,exports){
 "use strict";
 
 module.exports = require('eventablejs');
 
-},{"eventablejs":3}],163:[function(require,module,exports){
+},{"eventablejs":3}],164:[function(require,module,exports){
 "use strict";
 
 /*
@@ -8667,7 +8786,7 @@ Object.assign(EditorStore.prototype, {
 
 module.exports = EditorStore;
 
-},{"../lodash":176,"../utils":182}],164:[function(require,module,exports){
+},{"../lodash":175,"../utils":181}],165:[function(require,module,exports){
 "use strict";
 
 /*
@@ -8731,7 +8850,7 @@ module.exports = function(block, file, success, error) {
   return xhr;
 };
 
-},{"../config":158,"../event-bus":161,"../lodash":176,"../utils":182}],165:[function(require,module,exports){
+},{"../config":159,"../event-bus":162,"../lodash":175,"../utils":181}],166:[function(require,module,exports){
 "use strict";
 
 /*
@@ -8840,7 +8959,7 @@ Object.assign(Submittable.prototype, {
 module.exports = Submittable;
 
 
-},{"../event-bus":161,"../utils":182}],166:[function(require,module,exports){
+},{"../event-bus":162,"../utils":181}],167:[function(require,module,exports){
 "use strict";
 
 /*
@@ -8929,7 +9048,7 @@ Object.assign(FloatingBlockControls.prototype, require('./function-bind'), requi
 
 module.exports = FloatingBlockControls;
 
-},{"./event-bus":161,"./events":162,"./function-bind":171,"./lodash":176,"./renderable":178}],167:[function(require,module,exports){
+},{"./event-bus":162,"./events":163,"./function-bind":170,"./lodash":175,"./renderable":177}],168:[function(require,module,exports){
 "use strict";
 
 var config = require('./config');
@@ -8976,7 +9095,7 @@ var FormEvents = {
 
 module.exports = FormEvents;
 
-},{"./config":158,"./event-bus":161,"./extensions/submittable":165,"./utils":182}],168:[function(require,module,exports){
+},{"./config":159,"./event-bus":162,"./extensions/submittable":166,"./utils":181}],169:[function(require,module,exports){
 "use strict";
 
 /**
@@ -8989,10 +9108,11 @@ module.exports = FormEvents;
 var _ = require('./lodash');
 
 var config = require('./config');
-var Formatters = require('./formatters');
+var utils = require('./utils');
 
 var FormatBar = function(options, mediator) {
   this.options = Object.assign({}, config.defaults.formatBar, options || {});
+  this.commands = this.options.commands;
   this.mediator = mediator;
 
   this._ensureElement();
@@ -9017,23 +9137,19 @@ Object.assign(FormatBar.prototype, require('./function-bind'), require('./mediat
   },
 
   initialize: function() {
-    var formatName, format, btn;
     this.$btns = [];
 
-    for (formatName in Formatters) {
-      if (Formatters.hasOwnProperty(formatName)) {
-        format = Formatters[formatName];
-        btn = $("<button>", {
-          'class': 'st-format-btn st-format-btn--' + formatName + ' ' + (format.iconName ? 'st-icon' : ''),
-          'text': format.text,
-          'data-type': formatName,
-          'data-cmd': format.cmd
-        });
+    this.commands.forEach(function(format) {
+      var btn = $("<button>", {
+        'class': 'st-format-btn st-format-btn--' + format.name + ' ' +
+          (format.iconName ? 'st-icon' : ''),
+        'text': format.text,
+        'data-cmd': format.cmd
+      });
 
-        this.$btns.push(btn);
-        btn.appendTo(this.$el);
-      }
-    }
+      this.$btns.push(btn);
+      btn.appendTo(this.$el);
+    }, this);
 
     this.$b = $(document);
     this.$el.bind('click', '.st-format-btn', this.onFormatButtonClick);
@@ -9066,33 +9182,33 @@ Object.assign(FormatBar.prototype, require('./function-bind'), require('./mediat
   },
 
   highlightSelectedButtons: function() {
-    var formatter;
-    this.$btns.forEach(function($btn) {
-      formatter = Formatters[$btn.attr('data-type')];
-      $btn.toggleClass("st-format-btn--is-active",
-                       formatter.isActive());
+    var block = utils.getBlockBySelection();
+    this.$btns.forEach(function(btn) {
+      var cmd = $(btn).data('cmd');
+      btn.toggleClass("st-format-btn--is-active",
+                      block.queryTextBlockCommandState(cmd));
     }, this);
   },
 
   onFormatButtonClick: function(ev){
     ev.stopPropagation();
 
-    var btn = $(ev.target),
-    format = Formatters[btn.attr('data-type')];
+    var block = utils.getBlockBySelection();
+    if (_.isUndefined(block)) {
+      throw "Associated block not found";
+    }
 
-    if (_.isUndefined(format)) {
+    var btn = $(ev.target),
+        cmd = btn.data('cmd');
+
+    if (_.isUndefined(cmd)) {
       return false;
     }
 
-    // Do we have a click function defined on this formatter?
-    if(!_.isUndefined(format.onClick) && _.isFunction(format.onClick)) {
-      format.onClick(); // Delegate
-    } else {
-      // Call default
-      document.execCommand(btn.attr('data-cmd'), false, format.param);
-    }
+    block.execTextBlockCommand(cmd);
 
     this.highlightSelectedButtons();
+
     return false;
   }
 
@@ -9100,149 +9216,7 @@ Object.assign(FormatBar.prototype, require('./function-bind'), require('./mediat
 
 module.exports = FormatBar;
 
-},{"./config":158,"./events":162,"./formatters":170,"./function-bind":171,"./lodash":176,"./mediated-events":177,"./renderable":178}],169:[function(require,module,exports){
-"use strict";
-
-var _ = require('./lodash');
-
-var Formatter = function(options){
-  this.formatId = _.uniqueId('format-');
-  this._configure(options || {});
-  this.initialize.apply(this, arguments);
-};
-
-var formatOptions = ["title", "className", "cmd", "keyCode", "param", "onClick", "toMarkdown", "toHTML"];
-
-Object.assign(Formatter.prototype, {
-
-  title: '',
-  className: '',
-  cmd: null,
-  keyCode: null,
-  param: null,
-
-  toMarkdown: function(markdown){ return markdown; },
-  toHTML: function(html){ return html; },
-
-  initialize: function(){},
-
-  _configure: function(options) {
-    if (this.options) {
-      options = Object.assign({}, this.options, options);
-    }
-    for (var i = 0, l = formatOptions.length; i < l; i++) {
-      var attr = formatOptions[i];
-      if (options[attr]) {
-        this[attr] = options[attr];
-      }
-    }
-    this.options = options;
-  },
-
-  isActive: function() {
-    return document.queryCommandState(this.cmd);
-  },
-
-  _bindToBlock: function(block) {
-    var formatter = this,
-    ctrlDown = false;
-
-    block
-    .on('keyup','.st-text-block', function(ev) {
-      if(ev.which === 17 || ev.which === 224 || ev.which === 91) {
-        ctrlDown = false;
-      }
-    })
-    .on('keydown','.st-text-block', { formatter: formatter }, function(ev) {
-      if(ev.which === 17 || ev.which === 224 || ev.which === 91) {
-        ctrlDown = true;
-      }
-
-      if(ev.which === ev.data.formatter.keyCode && ctrlDown === true) {
-        document.execCommand(ev.data.formatter.cmd, false, true);
-        ev.preventDefault();
-        ctrlDown = false;
-      }
-    });
-  }
-});
-
-// Allow our Formatters to be extended.
-Formatter.extend = require('./helpers/extend');
-
-module.exports = Formatter;
-
-},{"./helpers/extend":173,"./lodash":176}],170:[function(require,module,exports){
-"use strict";
-
-/* Our base formatters */
-
-var Formatter = require('./formatter');
-
-var Bold = Formatter.extend({
-  title: "bold",
-  cmd: "bold",
-  keyCode: 66,
-  text : "B"
-});
-
-var Italic = Formatter.extend({
-  title: "italic",
-  cmd: "italic",
-  keyCode: 73,
-  text : "i"
-});
-
-var Link = Formatter.extend({
-
-  title: "link",
-  iconName: "link",
-  cmd: "CreateLink",
-  text : "link",
-
-  onClick: function() {
-
-    var link = window.prompt(i18n.t("general:link")),
-    link_regex = /((ftp|http|https):\/\/.)|mailto(?=\:[-\.\w]+@)/;
-
-    if(link && link.length > 0) {
-
-      if (!link_regex.test(link)) {
-        link = "http://" + link;
-      }
-
-      document.execCommand(this.cmd, false, link);
-    }
-  },
-
-  isActive: function() {
-    var selection = window.getSelection(),
-    node;
-
-    if (selection.rangeCount > 0) {
-      node = selection.getRangeAt(0)
-      .startContainer
-      .parentNode;
-    }
-
-    return (node && node.nodeName === "A");
-  }
-});
-
-var UnLink = Formatter.extend({
-  title: "unlink",
-  iconName: "link",
-  cmd: "unlink",
-  text : "link"
-});
-
-
-exports.Bold = new Bold();
-exports.Italic = new Italic();
-exports.Link = new Link();
-exports.Unlink = new UnLink();
-
-},{"./formatter":169}],171:[function(require,module,exports){
+},{"./config":159,"./events":163,"./function-bind":170,"./lodash":175,"./mediated-events":176,"./renderable":177,"./utils":181}],170:[function(require,module,exports){
 "use strict";
 
 /* Generic function binding utility, used by lots of our classes */
@@ -9257,7 +9231,7 @@ module.exports = {
 };
 
 
-},{}],172:[function(require,module,exports){
+},{}],171:[function(require,module,exports){
 "use strict";
 
 /*
@@ -9312,7 +9286,7 @@ $.fn.caretToEnd = function(){
 };
 
 
-},{}],173:[function(require,module,exports){
+},{}],172:[function(require,module,exports){
 "use strict";
 
 /*
@@ -9358,7 +9332,7 @@ module.exports = function(protoProps, staticProps) {
   return child;
 };
 
-},{}],174:[function(require,module,exports){
+},{}],173:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9367,11 +9341,13 @@ require('es6-shim'); // bundling in for the moment as support is very rare
 require('./helpers/event'); // extends jQuery itself
 require('./vendor/array-includes'); // shims ES7 Array.prototype.includes
 
+var utils = require('./utils');
+
 var SirTrevor = {
 
   config: require('./config'),
 
-  log: require('./utils').log,
+  log: utils.log,
   Locales: require('./locales'),
 
   Events: require('./events'),
@@ -9391,8 +9367,6 @@ var SirTrevor = {
 
   SimpleBlock: require('./simple-block'),
   Block: require('./block'),
-  Formatter: require('./formatter'),
-  Formatters: require('./formatters'),
 
   Blocks: require('./blocks'),
 
@@ -9410,19 +9384,7 @@ var SirTrevor = {
     Object.assign(SirTrevor.config.defaults, options || {});
   },
 
-  getInstance: function(identifier) {
-    if (_.isUndefined(identifier)) {
-      return this.config.instances[0];
-    }
-
-    if (_.isString(identifier)) {
-      return this.config.instances.find(function(editor) {
-        return editor.ID === identifier;
-      });
-    }
-
-    return this.config.instances[identifier];
-  },
+  getInstance: utils.getInstance,
 
   setBlockOptions: function(type, options) {
     var block = SirTrevor.Blocks[type];
@@ -9452,7 +9414,7 @@ Object.assign(SirTrevor, require('./form-events'));
 
 module.exports = SirTrevor;
 
-},{"./block":142,"./block-control":134,"./block-controls":135,"./block-deletion":136,"./block-manager":137,"./block-positioner":138,"./block-reorder":139,"./block-store":140,"./block-validations":141,"./block_mixins":147,"./blocks":152,"./config":158,"./editor":159,"./event-bus":161,"./events":162,"./extensions/editor-store":163,"./extensions/file-uploader":164,"./extensions/submittable":165,"./floating-block-controls":166,"./form-events":167,"./format-bar":168,"./formatter":169,"./formatters":170,"./helpers/event":172,"./locales":175,"./lodash":176,"./simple-block":179,"./to-html":180,"./to-markdown":181,"./utils":182,"./vendor/array-includes":183,"es6-shim":2}],175:[function(require,module,exports){
+},{"./block":143,"./block-control":135,"./block-controls":136,"./block-deletion":137,"./block-manager":138,"./block-positioner":139,"./block-reorder":140,"./block-store":141,"./block-validations":142,"./block_mixins":148,"./blocks":153,"./config":159,"./editor":160,"./event-bus":162,"./events":163,"./extensions/editor-store":164,"./extensions/file-uploader":165,"./extensions/submittable":166,"./floating-block-controls":167,"./form-events":168,"./format-bar":169,"./helpers/event":171,"./locales":174,"./lodash":175,"./simple-block":178,"./to-html":179,"./to-markdown":180,"./utils":181,"./vendor/array-includes":182,"es6-shim":2}],174:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9554,7 +9516,7 @@ if (window.i18n === undefined) {
 
 module.exports = Locales;
 
-},{"./config":158,"./lodash":176,"./utils":182}],176:[function(require,module,exports){
+},{"./config":159,"./lodash":175,"./utils":181}],175:[function(require,module,exports){
 "use strict";
 
 exports.isEmpty = require('lodash.isempty');
@@ -9566,7 +9528,7 @@ exports.result = require('lodash.result');
 exports.template = require('lodash.template');
 exports.uniqueId = require('lodash.uniqueid');
 
-},{"lodash.isempty":5,"lodash.isfunction":29,"lodash.isobject":30,"lodash.isstring":32,"lodash.isundefined":33,"lodash.result":34,"lodash.template":35,"lodash.uniqueid":51}],177:[function(require,module,exports){
+},{"lodash.isempty":5,"lodash.isfunction":29,"lodash.isobject":30,"lodash.isstring":32,"lodash.isundefined":33,"lodash.result":34,"lodash.template":35,"lodash.uniqueid":51}],176:[function(require,module,exports){
 "use strict";
 
 module.exports = {
@@ -9583,7 +9545,7 @@ module.exports = {
   }
 };
 
-},{}],178:[function(require,module,exports){
+},{}],177:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9633,7 +9595,7 @@ module.exports = {
 };
 
 
-},{"./lodash":176}],179:[function(require,module,exports){
+},{"./lodash":175}],178:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9646,7 +9608,7 @@ var SimpleBlock = function(data, instance_id, mediator, options) {
   this.blockID = _.uniqueId('st-block-');
   this.instanceID = instance_id;
   this.mediator = mediator;
-  this.options = options;
+  this.options = options || {};
 
   this._ensureElement();
   this._bindFunctions();
@@ -9772,7 +9734,7 @@ SimpleBlock.extend = require('./helpers/extend');
 
 module.exports = SimpleBlock;
 
-},{"./block-reorder":139,"./block-store":140,"./events":162,"./function-bind":171,"./helpers/extend":173,"./lodash":176,"./renderable":178,"./utils":182}],180:[function(require,module,exports){
+},{"./block-reorder":140,"./block-store":141,"./events":163,"./function-bind":170,"./helpers/extend":172,"./lodash":175,"./renderable":177,"./utils":181}],179:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9783,7 +9745,6 @@ module.exports = function(markdown, type) {
   // Deferring requiring these to sidestep a circular dependency:
   // Block -> this -> Blocks -> Block
   var Blocks = require('./blocks');
-  var Formatters = require('./formatters');
 
   // MD -> HTML
   type = utils.classify(type);
@@ -9816,18 +9777,6 @@ module.exports = function(markdown, type) {
           );
 
   html =  html.replace(/^\> (.+)$/mg,"$1");
-
-  // Use custom formatters toHTML functions (if any exist)
-  var formatName, format;
-  for(formatName in Formatters) {
-    if (Formatters.hasOwnProperty(formatName)) {
-      format = Formatters[formatName];
-      // Do we have a toHTML function?
-      if (!_.isUndefined(format.toHTML) && _.isFunction(format.toHTML)) {
-        html = format.toHTML(html);
-      }
-    }
-  }
 
   // Use custom block toHTML functions (if any exist)
   var block;
@@ -9865,7 +9814,7 @@ module.exports = function(markdown, type) {
   return html;
 };
 
-},{"./blocks":152,"./formatters":170,"./lodash":176,"./utils":182}],181:[function(require,module,exports){
+},{"./blocks":153,"./lodash":175,"./utils":181}],180:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9876,7 +9825,6 @@ module.exports = function(content, type) {
   // Deferring requiring these to sidestep a circular dependency:
   // Block -> this -> Blocks -> Block
   var Blocks = require('./blocks');
-  var Formatters = require('./formatters');
 
   type = utils.classify(type);
 
@@ -9938,18 +9886,6 @@ module.exports = function(content, type) {
                       .replace(/<i>(?:\s*)(.*?)(\s*)?<\/i>/gim, replaceItalics);
 
 
-  // Use custom formatters toMarkdown functions (if any exist)
-  var formatName, format;
-  for(formatName in Formatters) {
-    if (Formatters.hasOwnProperty(formatName)) {
-      format = Formatters[formatName];
-      // Do we have a toMarkdown function?
-      if (!_.isUndefined(format.toMarkdown) && _.isFunction(format.toMarkdown)) {
-        markdown = format.toMarkdown(markdown);
-      }
-    }
-  }
-
   // Do our generic stripping out
   markdown = markdown.replace(/([^<>]+)(<div>)/g,"$1\n$2")                                 // Divitis style line breaks (handle the first line)
                  .replace(/<div><div>/g,'\n<div>')                                         // ^ (double opening divs with one close from Chrome)
@@ -9975,7 +9911,7 @@ module.exports = function(content, type) {
   return markdown;
 };
 
-},{"./blocks":152,"./formatters":170,"./lodash":176,"./utils":182}],182:[function(require,module,exports){
+},{"./blocks":153,"./lodash":175,"./utils":181}],181:[function(require,module,exports){
 "use strict";
 
 var _ = require('./lodash');
@@ -9984,6 +9920,33 @@ var config = require('./config');
 var urlRegex = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
 
 var utils = {
+
+  getInstance: function(identifier) {
+    if (_.isUndefined(identifier)) {
+      return config.instances[0];
+    }
+
+    if (_.isString(identifier)) {
+      return config.instances.find(function(editor) {
+        return editor.ID === identifier;
+      });
+    }
+
+    return config.instances[identifier];
+  },
+
+  getInstanceBySelection: function() {
+    return utils.getInstance(
+      $(window.getSelection().anchorNode).
+        parents('.st-block').data('instance'));
+  },
+
+  getBlockBySelection: function() {
+    return utils.getInstanceBySelection().findBlockById(
+      $(window.getSelection().anchorNode).parents('.st-block').get(0).id
+    );
+  },
+
   log: function() {
     if (!_.isUndefined(console) && config.debug) {
       console.log.apply(console, arguments);
@@ -10038,7 +10001,7 @@ var utils = {
 
 module.exports = utils;
 
-},{"./config":158,"./lodash":176}],183:[function(require,module,exports){
+},{"./config":159,"./lodash":175}],182:[function(require,module,exports){
 "use strict";
 
 // jshint freeze: false
